@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import { APP_NAME } from '~/env';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
     <HomeHero />
-
-    <section>About</section>
+    <HomeAbout />
 
     <section>Features</section>
 
