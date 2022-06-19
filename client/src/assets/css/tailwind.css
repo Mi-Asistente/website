@@ -43,3 +43,37 @@
     @apply rounded;
   }
 }
+
+@layer components {
+  .text-link {
+    @apply font-semibold text-sky-500 hover:text-sky-700 disabled:text-gray-900 disabled:opacity-50 dark:text-sky-400 dark:hover:text-sky-300 dark:disabled:text-white;
+  }
+
+  .text-label {
+    @apply text-sm font-medium text-gray-600 dark:text-gray-200;
+  }
+
+  .site-container {
+    @apply mx-auto w-full max-w-7xl px-4 lg:px-8;
+  }
+
+  .btn {
+    @apply flex items-center justify-center rounded-lg px-4 py-2 text-sm font-semibold uppercase lg:text-base;
+  }
+
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:opacity-80 focus:ring-primary-400 active:opacity-100 dark:bg-primary-600;
+  }
+
+  .btn-text-primary {
+    @apply text-primary-500 hover:opacity-90 focus:ring-primary-400 dark:text-primary-400;
+  }
+
+  .btn-primary-outlined {
+    @apply border border-gray-800 text-gray-800 transition-colors hover:bg-gray-800 hover:text-white active:bg-gray-600 active:transition-none dark:border-white dark:text-white dark:hover:border-primary-500 dark:hover:bg-primary-500 dark:active:bg-primary-400;
+  }
+
+  .btn-primary-outlined-white {
+    @apply border border-white text-white transition-colors hover:border-primary-600 hover:bg-primary-600 active:bg-primary-700 active:transition-none;
+  }
+}

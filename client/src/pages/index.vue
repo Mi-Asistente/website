@@ -4,7 +4,7 @@ import { APP_NAME } from '~/env';
 
 <template>
   <main>
-    <section>Hero</section>
+    <HomeHero />
 
     <section>About</section>
 
