@@ -3,7 +3,7 @@ import { APP_NAME } from '~/env';
 
 useHead({
   title: APP_NAME,
-  meta: [{ name: 'description', content: 'Descripción de la app' }],
+  meta: [{ name: 'description', content: 'Plataforma administrativa para estéticas' }],
 });
 </script>
 
