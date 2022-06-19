@@ -15,7 +15,9 @@ const isDark = useDark();
             <span class="text-xl font-black text-gray-900 dark:text-white">{{ APP_NAME }}</span>
           </RouterLink>
 
-          <BaseButton class="btn btn-primary">Acceder</BaseButton>
+          <a href="https://app.miasistente.mx">
+            <BaseButton class="btn btn-primary">Acceder</BaseButton>
+          </a>
         </div>
       </header>
 
@@ -43,7 +45,9 @@ const isDark = useDark();
           </p>
 
           <div class="mt-14 flex gap-4">
-            <BaseButton class="btn btn-primary">Comenzar ahora</BaseButton>
+            <a href="https://app.miasistente.mx">
+              <BaseButton class="btn btn-primary">Probar gratis</BaseButton>
+            </a>
 
             <BaseButton class="btn btn-text-primary">Conoce más</BaseButton>
           </div>
