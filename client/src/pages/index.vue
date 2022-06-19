@@ -3,7 +3,19 @@ import { APP_NAME } from '~/env';
 </script>
 
 <template>
-  <h1 class="text-2xl text-gray-900">Welcome to {{ APP_NAME }}!</h1>
+  <main>
+    <section>Hero</section>
+
+    <section>About</section>
+
+    <section>Features</section>
+
+    <section>Video</section>
+
+    <section>Pricing</section>
+
+    <section>Footer</section>
+  </main>
 </template>
 
 <route lang="yaml">
