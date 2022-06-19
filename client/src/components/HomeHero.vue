@@ -53,7 +53,10 @@ const isDark = useDark();
           <picture>
             <source srcset="/img/webp/miasistente-agenda-ss.webp" type="image/webp" />
             <source srcset="/img/miasistente-agenda-ss.jpg" type="image/jpeg" />
-            <img src="" class="h-[80vh] max-w-none rounded-xl border shadow-xl dark:border-gray-400" />
+            <img
+              src=""
+              class="h-[60vh] max-h-full max-w-none rounded-xl border shadow-xl dark:border-gray-400 2xl:h-[80vh]"
+            />
           </picture>
 
           <picture aria-hidden="true">
@@ -68,7 +71,7 @@ const isDark = useDark();
 
           <div
             aria-hidden="true"
-            class="absolute -top-10 left-1/2 -z-20 h-10 w-[200%] rounded-tl-3xl bg-gray-100 dark:bg-gray-600"
+            class="absolute -top-10 left-1/2 -z-20 h-40 w-[200%] rounded-tl-3xl bg-gray-100 dark:bg-gray-600"
           ></div>
         </div>
       </div>
