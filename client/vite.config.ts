@@ -8,6 +8,7 @@ import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
+import generateSitemap from 'vite-ssg-sitemap';
 
 export default defineConfig({
   resolve: {
@@ -54,6 +55,9 @@ export default defineConfig({
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
+    onFinished() {
+      generateSitemap();
+    },
   },
 
   optimizeDeps: {

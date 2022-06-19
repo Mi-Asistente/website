@@ -33,6 +33,7 @@ specifiers:
   vite-plugin-pages: 0.24.2
   vite-plugin-vue-layouts: 0.6.0
   vite-ssg: 0.20.1
+  vite-ssg-sitemap: ^0.2.7
   vue: 3.2.37
   vue-demi: 0.13.1
   vue-router: 4.0.16
@@ -76,6 +77,7 @@ devDependencies:
   vite-plugin-pages: 0.24.2_vite@2.9.12
   vite-plugin-vue-layouts: 0.6.0_rhgkriiwgt67w4tmjwulloled4
   vite-ssg: 0.20.1_ah2svnd4q4evbmcsekycrwsdcm
+  vite-ssg-sitemap: 0.2.7
   vue-tsc: 0.38.0_typescript@4.7.4
 
 packages:
@@ -4110,6 +4112,10 @@ packages:
       vue-router: 4.0.16_vue@3.2.37
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vite-ssg-sitemap/0.2.7:
+    resolution: {integrity: sha512-vzB2qey/PZGv8gd3nCkLiXxEemByZrTHjhkO7aFcjbxAKlW36RraBMZkizzRUo6uB06Uo7yM4UmzjE5h6dfvsg==}
     dev: true
 
   /vite-ssg/0.20.1_ah2svnd4q4evbmcsekycrwsdcm:
