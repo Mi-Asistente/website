@@ -3,6 +3,7 @@
 <template>
   <main>
     <HomeHero />
+
     <!-- <HomeAbout />
 
     <section>Features</section>

@@ -15,6 +15,10 @@ module.exports = {
         primary: colors.sky,
       },
 
+      screens: {
+        xs: '480px',
+      },
+
       fontFamily: {
         sans: ['Inter var', 'Inter', 'system-ui', 'sans-serif'],
       },

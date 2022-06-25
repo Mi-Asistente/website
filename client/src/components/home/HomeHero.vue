@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { APP_URL } from '~/env';
+import { APP_URL_SIGN_IN } from '~/env';
 </script>
 
 <template>
@@ -26,8 +26,8 @@ import { APP_URL } from '~/env';
       inventarios, reportes, clientes y más.
     </p>
 
-    <div class="mt-10 flex justify-center space-x-6">
-      <a :href="APP_URL" class="btn btn-primary">Prueba 30 días gratis</a>
+    <div class="mt-10 flex flex-col justify-center gap-4 xs:flex-row xs:gap-6">
+      <a :href="APP_URL_SIGN_IN" class="btn btn-primary">Prueba 30 días gratis</a>
       <a href="#" class="btn btn-outlined"
         ><PhPlayFill class="text-primary-600" /><span class="ml-3">Ver video</span></a
       >

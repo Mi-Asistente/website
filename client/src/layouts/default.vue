@@ -1,5 +1,7 @@
 <template>
   <div>
+    <TheHeader />
+
     <RouterView v-slot="{ Component }">
       <Suspense>
         <Transition
