@@ -48,6 +48,6 @@ import { APP_URL, APP_URL_SIGN_IN } from '~/env';
 
 <style scoped>
 .nav-link {
-  @apply rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900;
+  @apply rounded-lg py-1 px-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900;
 }
 </style>

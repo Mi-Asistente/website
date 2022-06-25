@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': 0.25.1
   '@headlessui/vue': 1.6.1
+  '@iconify-json/bx': ^1.1.2
   '@iconify-json/heroicons-outline': ^1.1.1
   '@iconify-json/heroicons-solid': ^1.1.1
   '@iconify-json/mdi': ^1.1.21
@@ -54,6 +55,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
   '@headlessui/vue': 1.6.1_vue@3.2.37
+  '@iconify-json/bx': 1.1.2
   '@iconify-json/heroicons-outline': 1.1.1
   '@iconify-json/heroicons-solid': 1.1.1
   '@iconify-json/mdi': 1.1.21
@@ -269,6 +271,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/bx/1.1.2:
+    resolution: {integrity: sha512-aITMwliHaW8QrxAh6/hx1wkYAXWYR6iVYsAxerK3b5NpxuYvmfXWPgtpuQC7xaPbfab3Rxj0YJLJmA6WGy59rw==}
+    dependencies:
+      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify-json/heroicons-outline/1.1.1:

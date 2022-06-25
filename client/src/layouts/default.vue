@@ -23,5 +23,7 @@
         </template>
       </Suspense>
     </RouterView>
+
+    <TheFooter />
   </div>
 </template>
