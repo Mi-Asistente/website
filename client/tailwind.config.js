@@ -14,6 +14,10 @@ module.exports = {
       colors: {
         primary: colors.sky,
       },
+
+      fontFamily: {
+        sans: ['Inter var', 'Inter', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],

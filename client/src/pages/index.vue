@@ -3,7 +3,7 @@
 <template>
   <main>
     <HomeHero />
-    <HomeAbout />
+    <!-- <HomeAbout />
 
     <section>Features</section>
 
@@ -11,7 +11,7 @@
 
     <section>Pricing</section>
 
-    <section>Footer</section>
+    <section>Footer</section> -->
   </main>
 </template>
 
