@@ -4,7 +4,14 @@ import { APP_NAME, APP_URL_SIGN_IN } from '~/env';
 
 <template>
   <section class="relative overflow-hidden bg-primary-600 py-32">
-    <!-- TODO: Add bg image -->
+    <div aria-hidden="true" class="absolute inset-0 h-full w-full">
+      <picture>
+        <source srcset="/img/webp/cta-bg.webp" type="image/webp" />
+        <source srcset="/img/cta-bg.jpg" type="image/jpeg" />
+
+        <img alt="" src="" class="h-full w-full object-cover opacity-70" />
+      </picture>
+    </div>
 
     <Container class="relative">
       <div class="mx-auto max-w-lg text-center">

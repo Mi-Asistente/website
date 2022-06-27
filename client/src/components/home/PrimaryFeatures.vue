@@ -37,7 +37,17 @@ const features = [
 
 <template>
   <section id="funciones" class="relative overflow-hidden bg-primary-600 pt-20 pb-28 sm:py-32">
-    <!-- TODO: Add bg gradient image -->
+    <div
+      aria-hidden="true"
+      class="absolute top-1/2 left-1/2 h-full w-full -translate-x-[50%] -translate-y-[50%]"
+    >
+      <picture>
+        <source srcset="/img/webp/primary-features-bg.webp" type="image/webp" />
+        <source srcset="/img/primary-features-bg.jpg" type="image/jpeg" />
+
+        <img alt="" src="" class="h-[1636px] w-[2245px] object-cover opacity-70" />
+      </picture>
+    </div>
 
     <Container class="relative">
       <div class="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
