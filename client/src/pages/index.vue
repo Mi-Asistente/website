@@ -5,6 +5,7 @@
     <HomeHero />
     <PrimaryFeatures />
     <SecondaryFeatures />
+    <TheCta />
   </main>
 </template>
 
