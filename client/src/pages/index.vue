@@ -6,6 +6,7 @@
     <PrimaryFeatures />
     <SecondaryFeatures />
     <TheCta />
+    <HomePricing />
   </main>
 </template>
 
