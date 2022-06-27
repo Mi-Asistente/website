@@ -3,18 +3,8 @@
 <template>
   <main>
     <HomeHero />
-
     <PrimaryFeatures />
-
-    <!-- <HomeAbout />
-
-    <section>Features</section>
-
-    <section>Video</section>
-
-    <section>Pricing</section>
-
-    <section>Footer</section> -->
+    <SecondaryFeatures />
   </main>
 </template>
 
