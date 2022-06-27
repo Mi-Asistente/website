@@ -4,6 +4,8 @@
   <main>
     <HomeHero />
 
+    <PrimaryFeatures />
+
     <!-- <HomeAbout />
 
     <section>Features</section>

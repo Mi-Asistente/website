@@ -3,7 +3,7 @@ import { APP_URL_SIGN_IN } from '~/env';
 </script>
 
 <template>
-  <Container class="pt-20 pb-16 text-center lg:pt-32">
+  <Container class="py-20 text-center lg:py-32">
     <h1 class="mx-auto max-w-3xl text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
       Administra tu estética{{ ' ' }}
       <span class="relative whitespace-nowrap text-primary-600">
