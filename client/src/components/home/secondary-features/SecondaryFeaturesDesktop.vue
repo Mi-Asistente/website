@@ -48,8 +48,6 @@ defineProps({
           </div>
         </HuiTabPanel>
       </div>
-
-      <div class="rounded-4xl pointer-events-none absolute inset-0 ring-1 ring-inset ring-gray-900/10" />
     </HuiTabPanels>
   </HuiTabGroup>
 </template>

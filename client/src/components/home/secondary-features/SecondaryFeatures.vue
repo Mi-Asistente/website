@@ -50,8 +50,8 @@ const isMobile = bp.smaller('lg');
           Simplifica las actividades de tu negocio.
         </h2>
         <p class="mt-4 text-lg tracking-tight text-gray-700">
-          Because you'd probably be a little confused if we suggested you complicate your everyday business
-          tasks instead.
+          Queremos ayudarte a que puedas aprovechar tu tiempo y reducir la fricción de las actividades
+          administrativas.
         </p>
       </div>
 
