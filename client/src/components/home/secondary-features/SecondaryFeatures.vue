@@ -12,8 +12,8 @@ const features: SecondaryFeature[] = [
     summary: 'Mantente al día de tu sucursal con reportes actualizados.',
     description:
       'Podrás generar reportes completos con el rendimiento de tu sucursal para cualquier periodo de tiempo que necesites consultar.',
-    image: '/img/webp/miasistente-agenda-ss.webp',
-    imageFallback: '',
+    image: '/img/screenshots/summary-cards.webp',
+    imageFallback: '/img/screenshots/summary-cards.jpg',
   },
   {
     name: 'Clientes',
@@ -21,8 +21,8 @@ const features: SecondaryFeature[] = [
     summary: 'Ofrece la mejor atención a tus clientes más frecuentes.',
     description:
       'Lleva un historial personalizado para cada uno de tus clientes para poderles dar seguimiento y darles el servicio personalizado que merecen.',
-    image: '/img/webp/miasistente-agenda-ss.webp',
-    imageFallback: '',
+    image: '/img/screenshots/customer-info.webp',
+    imageFallback: '/img/screenshots/customer-info.jpg',
   },
   {
     name: 'Multi-sucursal',
@@ -30,8 +30,8 @@ const features: SecondaryFeature[] = [
     summary: 'Maneja varias sucursales desde una sola cuenta.',
     description:
       'Al ser un servicio en línea, si lo requires podrás manejar varias sucursales con tu misma cuenta, cada una con su propio panel personalizado.',
-    image: '/img/webp/miasistente-agenda-ss.webp',
-    imageFallback: '',
+    image: '/img/screenshots/shop-select.webp',
+    imageFallback: '/img/screenshots/shop-select.jpg',
   },
 ];
 

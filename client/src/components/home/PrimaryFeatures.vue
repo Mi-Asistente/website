@@ -8,29 +8,29 @@ const features = [
   {
     title: 'Agenda de citas',
     description: 'Mantén a tu equipo organizado con su propia agenda de citas personalizada e intuitiva.',
-    image: '/img/webp/miasistente-agenda-ss.webp',
-    imageFallback: '/img/miasistente-agenda-ss.jpg',
+    image: '/img/screenshots/agenda.webp',
+    imageFallback: '/img/screenshots/agenda.jpg',
   },
   {
     title: 'Registro de ventas',
     description:
       'Lleva un registro detallado de todas las ventas realizadas en tu sucursal para tener un mejor control.',
-    image: '/img/webp/miasistente-ventas-ss.webp',
-    imageFallback: '/img/miasistente-ventas-ss.jpg',
+    image: '/img/screenshots/ventas.webp',
+    imageFallback: '/img/screenshots/ventas.jpg',
   },
   {
     title: 'Comisiones y reportes',
     description:
       'Te ayudamos a llevar las cuentas para el pago de comisiones de tus empleados y generar reportes de ventas.',
-    image: '/img/webp/miasistente-reportes-ss.webp',
-    imageFallback: '/img/miasistente-reportes-ss.jpg',
+    image: '/img/screenshots/reportes.webp',
+    imageFallback: '/img/screenshots/reportes.jpg',
   },
   {
     title: 'Control de inventario',
     description:
       'Administra el inventario y las existencias de tus productos diréctamente y sin complicaciones.',
-    image: '/img/webp/miasistente-agenda-ss.webp',
-    imageFallback: '/img/miasistente-agenda-ss.jpg',
+    image: '/img/screenshots/inventario.webp',
+    imageFallback: '/img/screenshots/inventario.jpg',
   },
 ];
 </script>
@@ -84,7 +84,7 @@ const features = [
               <h3>
                 <HuiTab
                   :class="[
-                    'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
+                    'font-display text-lg outline-none',
                     {
                       'text-primary-600 lg:text-white': selectedIndex === featureIndex,
                       'text-primary-100 hover:text-white lg:text-white': selectedIndex !== featureIndex,
@@ -123,12 +123,12 @@ const features = [
             </div>
 
             <div
-              class="relative mt-10 aspect-[1085/730] w-[45rem] overflow-hidden rounded-xl bg-gray-50 shadow-xl shadow-primary-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
+              class="relative mt-10 w-[45rem] overflow-hidden rounded-xl bg-gray-50 shadow-xl shadow-primary-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
             >
               <picture>
                 <source :srcset="feature.image" type="image/webp" />
                 <source :srcset="feature.imageFallback" type="image/jpeg" />
-                <img src="" alt="" class="h-full sm:w-[100vw] lg:w-[67.8125rem]" />
+                <img src="" alt="" class="h-full sm:w-[100vw] lg:w-full" />
               </picture>
             </div>
           </HuiTabPanel>
