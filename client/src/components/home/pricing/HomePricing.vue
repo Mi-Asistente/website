@@ -18,7 +18,7 @@ import { APP_NAME } from '~/env';
         class="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8"
       >
         <HomePricingPlan
-          price="$300"
+          price="$350"
           name="Empresa pequeña"
           pay-period="/mes por sucursal"
           description="Excelente para pequeñas estéticas y barberías con pocos empleados."
@@ -34,7 +34,7 @@ import { APP_NAME } from '~/env';
 
         <HomePricingPlan
           featured
-          price="$500"
+          price="$550"
           name="Empresa mediana"
           pay-period="/mes por sucursal"
           description="Excelente para pequeñas estéticas y barberías con pocos empleados."
