@@ -19,9 +19,9 @@ import { APP_URL, APP_URL_SIGN_IN } from '~/env';
             <NuxtLink to="#funciones" class="nav-link">Funciones</NuxtLink>
           </li>
 
-          <li class="ml-6 hidden md:block">
+          <!-- <li class="ml-6 hidden md:block">
             <NuxtLink to="#videos" class="nav-link">Videos</NuxtLink>
-          </li>
+          </li> -->
 
           <li class="ml-6 hidden md:block">
             <NuxtLink to="#precios" class="nav-link">Precios</NuxtLink>

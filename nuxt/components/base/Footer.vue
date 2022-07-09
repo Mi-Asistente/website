@@ -13,9 +13,9 @@ import { APP_NAME } from '~/env';
             <li>
               <NuxtLink to="#funciones" class="nav-link">Funciones</NuxtLink>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink to="#videos" class="nav-link">Videos</NuxtLink>
-            </li>
+            </li> -->
             <li>
               <NuxtLink to="#precios" class="nav-link">Precios</NuxtLink>
             </li>
@@ -23,9 +23,7 @@ import { APP_NAME } from '~/env';
         </nav>
       </div>
 
-      <div
-        class="flex flex-col items-center border-t border-gray-400/10 py-10 sm:flex-row-reverse sm:justify-between"
-      >
+      <div class="flex flex-col items-center border-t border-gray-400/10 py-10 justify-center">
         <!-- TODO: Add socials -->
         <!-- <div class="flex space-x-6">
           <a href="#" class="group">

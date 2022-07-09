@@ -49,9 +49,9 @@ import { APP_URL } from '~/env';
           <li>
             <NuxtLink to="#funciones" class="block w-full" @click="close">Funciones</NuxtLink>
           </li>
-          <li>
+          <!-- <li>
             <NuxtLink to="#videos" class="block w-full" @click="close">Videos</NuxtLink>
-          </li>
+          </li> -->
           <li>
             <NuxtLink to="#precios" class="block w-full" @click="close">Precios</NuxtLink>
           </li>
