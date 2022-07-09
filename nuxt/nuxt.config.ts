@@ -21,6 +21,11 @@ export default defineNuxtConfig({
     },
   },
 
+  env: {
+    NITRO_PORT: 8087,
+    PORT: 8087,
+  },
+
   autoImports: {
     dirs: ['composables', 'stores', 'components'],
     imports: [],
