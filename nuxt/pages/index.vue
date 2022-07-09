@@ -2,7 +2,7 @@
 useHead({
   title: 'Administrador de Estéticas',
   meta: [
-    { property: 'og:title', content: 'Administrador de estéticas | CGV WEB' },
+    { property: 'og:title', content: 'Administrador de Estéticas | Mi Asistente' },
     {
       property: 'og:description',
       content:

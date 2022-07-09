@@ -13,7 +13,10 @@ export default defineNuxtConfig({
       ],
       meta: [
         { property: 'og:type', content: 'Website' },
-        { property: 'og:image', content: '/og-miasistente-banner.jpg' },
+        {
+          property: 'og:image',
+          content: 'https://cms.cgvweb.com/assets/47167d31-18c2-4826-a0e0-a48bac56a4a8',
+        },
       ],
     },
   },
