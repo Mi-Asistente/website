@@ -129,7 +129,11 @@ const features = [
               <picture>
                 <source :srcset="feature.image" type="image/webp" />
                 <source :srcset="feature.imageFallback" type="image/jpeg" />
-                <img src="" alt="" class="h-full sm:w-[100vw] lg:w-full" />
+                <img
+                  src=""
+                  :alt="feature.title"
+                  class="h-full sm:w-[100vw] lg:w-full object-cover object-left max-h-[70vh] lg:max-h-[none]"
+                />
               </picture>
             </div>
           </TabPanel>
